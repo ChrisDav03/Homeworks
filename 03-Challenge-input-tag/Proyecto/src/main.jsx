@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
+import Proyecto from './FirstApp'
 
 
-function App3() {
-  return <h1>Hola mundo</h1>
 
-}
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App/>
+    
+    <Proyecto />
   </React.StrictMode>,
 )
