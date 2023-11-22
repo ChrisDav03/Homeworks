@@ -1,5 +1,5 @@
 
-import { Father } from './components/Father';
+import { Father } from './components/TodoApp';
 export default function FirstApp() {
     return (
         <div>
